@@ -1,6 +1,10 @@
 # JuliaSet
 
-'''
+Generates Julia Set fractal when given rational function.
+
+Example usage:
+
+```
 using JuliaSet
 using PyPlot
 
@@ -13,8 +17,10 @@ function R(z)
     return (z^2 + im*0.5)/(exp(z^3) - 0.621 + im*0.4)
 end
 
-A = GenerateJuliaSet(R, x, y, n_iter, escape_tol)
-;
+A = GenerateJuliaSet(R, x, y, n_iter, escape_tol);
 
 imshow(A)
-'''
+```
+
+This produces the following fractal image:
+
