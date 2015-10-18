@@ -24,3 +24,4 @@ imshow(A)
 
 This produces the following fractal image:
 
+![alt text](https://github.com/restrin/JuliaSet/raw/master/juliafractal.png "Example generated fractal image.")
