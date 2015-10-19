@@ -20,7 +20,7 @@ function GenerateJuliaSet(R::Function, x::Array{Float64,1}, y::Array{Float64,1},
 				end
 			end
 			if A[i,j] == 0
-				A[i,j] = escape_tol + 1
+				A[i,j] = n_iter + 1
 			end
 		end
 	end
